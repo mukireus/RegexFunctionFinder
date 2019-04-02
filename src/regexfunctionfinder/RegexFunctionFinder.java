@@ -7,7 +7,7 @@ package regexfunctionfinder;
 
 /**
  *
- * @author muham
+ * @author Muhammet Ömer
  */
 public class RegexFunctionFinder {
 
@@ -15,7 +15,11 @@ public class RegexFunctionFinder {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //Test
+        ReadFile r = new ReadFile();
+        r.openFile();
+        r.readFile();
+        r.printScreen();
+        r.closeFile();    
     }
-    
 }
